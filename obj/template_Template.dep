@@ -1,0 +1,621 @@
+Dependencies for Project 'template', Target 'Template': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\lib\system\src\startup_stm32f051x8.s)(0x58684D78)(--cpu Cortex-M0 -g --apcs=interwork -IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 531" --pd "STM32F051x8 SETA 1"--list .\lst\startup_stm32f051x8.lst --xref -o .\obj\startup_stm32f051x8.o --depend .\obj\startup_stm32f051x8.d)
+F (.\lib\system\src\system_stm32f0xx.c)(0x58702FAA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\system_stm32f0xx.o --omf_browse .\obj\system_stm32f0xx.crf --depend .\obj\system_stm32f0xx.d)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\system\src\sys.cpp)(0x58595C0C)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5EC7CA52)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+F (.\lib\cmsis\src\cmsis_nvic.c)(0x58595C0C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\cmsis_nvic.o --omf_browse .\obj\cmsis_nvic.crf --depend .\obj\cmsis_nvic.d)
+I (.\lib\cmsis\inc\cmsis_nvic.h)(0x58595C0C)
+I (.\lib\cmsis\inc\cmsis.h)(0x58595C0C)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\cmsis\inc\cmsis.h)(0x58595C0C)()
+F (.\lib\cmsis\inc\cmsis_nvic.h)(0x58595C0C)()
+F (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)()
+F (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)()
+F (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)()
+F (.\lib\api\src\Common.c)(0x588D1380)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\common.o --omf_browse .\obj\common.crf --depend .\obj\common.d)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\api\src\CircularBuffer.cpp)(0x5894C54D)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\circularbuffer.o --omf_browse .\obj\circularbuffer.crf --depend .\obj\circularbuffer.d)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\api\src\Delay.c)(0x5868303F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\delay.o --omf_browse .\obj\delay.crf --depend .\obj\delay.d)
+I (.\lib\api\inc\Delay.h)(0x58681031)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\api\src\GPIO.cpp)(0x58714163)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\api\src\Digital.cpp)(0x58716A57)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\digital.o --omf_browse .\obj\digital.crf --depend .\obj\digital.d)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\api\src\Analog.cpp)(0x58716A77)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\analog.o --omf_browse .\obj\analog.crf --depend .\obj\analog.d)
+I (.\lib\api\inc\Analog.h)(0x587031BF)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\api\src\Timer.cpp)(0x588519D8)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\timer.o --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+I (.\lib\api\inc\Timer.h)(0x58851BCA)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+F (.\lib\api\src\Serial.cpp)(0x588663BC)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\serial.o --omf_browse .\obj\serial.crf --depend .\obj\serial.d)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+F (.\lib\api\src\I2C.cpp)(0x58966AC6)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\i2c.o --omf_browse .\obj\i2c.crf --depend .\obj\i2c.d)
+I (.\lib\api\inc\I2C.h)(0x588C9CF4)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+F (.\lib\api\src\SPI.cpp)(0x588935FF)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\spi.o --omf_browse .\obj\spi.crf --depend .\obj\spi.d)
+I (.\lib\api\inc\SPI.h)(0x58892D6E)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\api\src\Memory.cpp)(0x58702E36)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\memory.o --omf_browse .\obj\memory.crf --depend .\obj\memory.d)
+I (.\lib\api\inc\Memory.h)(0x586C053B)
+I (.\lib\api\inc\common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\api\src\Power.cpp)(0x587032D6)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\power.o --omf_browse .\obj\power.crf --depend .\obj\power.d)
+I (.\lib\api\inc\Power.h)(0x58702848)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\api\src\Watchdog.cpp)(0x586FF7C8)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\watchdog.o --omf_browse .\obj\watchdog.crf --depend .\obj\watchdog.d)
+I (.\lib\api\inc\Watchdog.h)(0x586E9BE5)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\api\src\RTC.cpp)(0x5879587D)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\rtc.o --omf_browse .\obj\rtc.crf --depend .\obj\rtc.d)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\src\main.c)(0x5935856C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (.\inc\main.h)(0x59358531)
+I (.\inc\Init.h)(0x59358577)
+I (.\inc\Loop.h)(0x593584C9)
+F (.\src\Init.c)(0x5F84C376)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\init.o --omf_browse .\obj\init.crf --depend .\obj\init.d)
+I (.\inc\Init.h)(0x59358577)
+I (.\inc\Config.h)(0x593583BD)
+I (.\lib\api\inc\API.h)(0x589F34D8)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (.\lib\api\inc\Delay.h)(0x58681031)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\api\inc\Analog.h)(0x587031BF)
+I (.\lib\api\inc\Timer.h)(0x58851BCA)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\I2C.h)(0x588C9CF4)
+I (.\lib\api\inc\SPI.h)(0x58892D6E)
+I (.\lib\api\inc\Memory.h)(0x586C053B)
+I (.\lib\api\inc\Power.h)(0x58702848)
+I (.\lib\api\inc\Watchdog.h)(0x586E9BE5)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\misc\inc\SevenSeg.h)(0x59358555)
+I (.\lib\misc\inc\Encoder.h)(0x588C9A06)
+I (.\lib\misc\inc\DS3231.h)(0x5F84C762)
+I (.\lib\misc\inc\GPS.h)(0x589F9A8A)
+I (.\lib\misc\inc\Button.h)(0x59355204)
+I (.\lib\misc\inc\Brightness.h)(0x59356E88)
+I (.\lib\misc\inc\cie1931.h)(0x588E0736)
+I (.\lib\misc\inc\Timezone.h)(0x588CB124)
+I (.\lib\misc\inc\Grid.h)(0x588CB8C2)
+I (.\inc\Menu.h)(0x59357B73)
+I (.\inc\Items\Clock.h)(0x59357C68)
+I (.\inc\Items\Temperature.h)(0x59357C77)
+I (.\inc\Items\Altitude.h)(0x59357C8F)
+I (.\inc\Items\Fix.h)(0x59357CA3)
+I (.\inc\Items\Satellites.h)(0x59357CB8)
+I (.\inc\Callbacks.h)(0x593583C6)
+F (.\src\Loop.c)(0x59358544)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\loop.o --omf_browse .\obj\loop.crf --depend .\obj\loop.d)
+I (.\inc\Loop.h)(0x593584C9)
+I (.\inc\Config.h)(0x593583BD)
+I (.\lib\api\inc\API.h)(0x589F34D8)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (.\lib\api\inc\Delay.h)(0x58681031)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\api\inc\Analog.h)(0x587031BF)
+I (.\lib\api\inc\Timer.h)(0x58851BCA)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\I2C.h)(0x588C9CF4)
+I (.\lib\api\inc\SPI.h)(0x58892D6E)
+I (.\lib\api\inc\Memory.h)(0x586C053B)
+I (.\lib\api\inc\Power.h)(0x58702848)
+I (.\lib\api\inc\Watchdog.h)(0x586E9BE5)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\misc\inc\SevenSeg.h)(0x59358555)
+I (.\lib\misc\inc\Encoder.h)(0x588C9A06)
+I (.\lib\misc\inc\DS3231.h)(0x5F84C762)
+I (.\lib\misc\inc\GPS.h)(0x589F9A8A)
+I (.\lib\misc\inc\Button.h)(0x59355204)
+I (.\lib\misc\inc\Brightness.h)(0x59356E88)
+I (.\lib\misc\inc\cie1931.h)(0x588E0736)
+I (.\lib\misc\inc\Timezone.h)(0x588CB124)
+I (.\lib\misc\inc\Grid.h)(0x588CB8C2)
+I (.\inc\Menu.h)(0x59357B73)
+I (.\inc\Items\Clock.h)(0x59357C68)
+I (.\inc\Items\Temperature.h)(0x59357C77)
+I (.\inc\Items\Altitude.h)(0x59357C8F)
+I (.\inc\Items\Fix.h)(0x59357CA3)
+I (.\inc\Items\Satellites.h)(0x59357CB8)
+F (.\src\Config.cpp)(0x593583A7)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\config.o --omf_browse .\obj\config.crf --depend .\obj\config.d)
+I (.\inc\Config.h)(0x593583BD)
+I (.\lib\api\inc\API.h)(0x589F34D8)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (.\lib\api\inc\Delay.h)(0x58681031)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\api\inc\Analog.h)(0x587031BF)
+I (.\lib\api\inc\Timer.h)(0x58851BCA)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\I2C.h)(0x588C9CF4)
+I (.\lib\api\inc\SPI.h)(0x58892D6E)
+I (.\lib\api\inc\Memory.h)(0x586C053B)
+I (.\lib\api\inc\Power.h)(0x58702848)
+I (.\lib\api\inc\Watchdog.h)(0x586E9BE5)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\misc\inc\SevenSeg.h)(0x59358555)
+I (.\lib\misc\inc\Encoder.h)(0x588C9A06)
+I (.\lib\misc\inc\DS3231.h)(0x5F84C762)
+I (.\lib\misc\inc\GPS.h)(0x589F9A8A)
+I (.\lib\misc\inc\Button.h)(0x59355204)
+I (.\lib\misc\inc\Brightness.h)(0x59356E88)
+I (.\lib\misc\inc\cie1931.h)(0x588E0736)
+I (.\lib\misc\inc\Timezone.h)(0x588CB124)
+I (.\lib\misc\inc\Grid.h)(0x588CB8C2)
+I (.\inc\Menu.h)(0x59357B73)
+I (.\inc\Items\Clock.h)(0x59357C68)
+I (.\inc\Items\Temperature.h)(0x59357C77)
+I (.\inc\Items\Altitude.h)(0x59357C8F)
+I (.\inc\Items\Fix.h)(0x59357CA3)
+I (.\inc\Items\Satellites.h)(0x59357CB8)
+F (.\src\Callbacks.c)(0x59358699)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\callbacks.o --omf_browse .\obj\callbacks.crf --depend .\obj\callbacks.d)
+I (.\inc\Callbacks.h)(0x593583C6)
+I (.\inc\Config.h)(0x593583BD)
+I (.\lib\api\inc\API.h)(0x589F34D8)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (.\lib\api\inc\Delay.h)(0x58681031)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\api\inc\Analog.h)(0x587031BF)
+I (.\lib\api\inc\Timer.h)(0x58851BCA)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\I2C.h)(0x588C9CF4)
+I (.\lib\api\inc\SPI.h)(0x58892D6E)
+I (.\lib\api\inc\Memory.h)(0x586C053B)
+I (.\lib\api\inc\Power.h)(0x58702848)
+I (.\lib\api\inc\Watchdog.h)(0x586E9BE5)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\misc\inc\SevenSeg.h)(0x59358555)
+I (.\lib\misc\inc\Encoder.h)(0x588C9A06)
+I (.\lib\misc\inc\DS3231.h)(0x5F84C762)
+I (.\lib\misc\inc\GPS.h)(0x589F9A8A)
+I (.\lib\misc\inc\Button.h)(0x59355204)
+I (.\lib\misc\inc\Brightness.h)(0x59356E88)
+I (.\lib\misc\inc\cie1931.h)(0x588E0736)
+I (.\lib\misc\inc\Timezone.h)(0x588CB124)
+I (.\lib\misc\inc\Grid.h)(0x588CB8C2)
+I (.\inc\Menu.h)(0x59357B73)
+I (.\inc\Items\Clock.h)(0x59357C68)
+I (.\inc\Items\Temperature.h)(0x59357C77)
+I (.\inc\Items\Altitude.h)(0x59357C8F)
+I (.\inc\Items\Fix.h)(0x59357CA3)
+I (.\inc\Items\Satellites.h)(0x59357CB8)
+F (.\src\Items\Altitude.cpp)(0x59357C2A)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\altitude.o --omf_browse .\obj\altitude.crf --depend .\obj\altitude.d)
+I (.\inc\Items\Altitude.h)(0x59357C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\inc\Config.h)(0x593583BD)
+I (.\lib\api\inc\API.h)(0x589F34D8)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (.\lib\api\inc\Delay.h)(0x58681031)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\api\inc\Analog.h)(0x587031BF)
+I (.\lib\api\inc\Timer.h)(0x58851BCA)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\I2C.h)(0x588C9CF4)
+I (.\lib\api\inc\SPI.h)(0x58892D6E)
+I (.\lib\api\inc\Memory.h)(0x586C053B)
+I (.\lib\api\inc\Power.h)(0x58702848)
+I (.\lib\api\inc\Watchdog.h)(0x586E9BE5)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\misc\inc\SevenSeg.h)(0x59358555)
+I (.\lib\misc\inc\Encoder.h)(0x588C9A06)
+I (.\lib\misc\inc\DS3231.h)(0x5F84C762)
+I (.\lib\misc\inc\GPS.h)(0x589F9A8A)
+I (.\lib\misc\inc\Button.h)(0x59355204)
+I (.\lib\misc\inc\Brightness.h)(0x59356E88)
+I (.\lib\misc\inc\cie1931.h)(0x588E0736)
+I (.\lib\misc\inc\Timezone.h)(0x588CB124)
+I (.\lib\misc\inc\Grid.h)(0x588CB8C2)
+I (.\inc\Menu.h)(0x59357B73)
+I (.\inc\Items\Clock.h)(0x59357C68)
+I (.\inc\Items\Temperature.h)(0x59357C77)
+I (.\inc\Items\Fix.h)(0x59357CA3)
+I (.\inc\Items\Satellites.h)(0x59357CB8)
+F (.\src\Items\Clock.cpp)(0x5F84BE11)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\clock.o --omf_browse .\obj\clock.crf --depend .\obj\clock.d)
+I (.\inc\Items\Clock.h)(0x59357C68)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\inc\Config.h)(0x593583BD)
+I (.\lib\api\inc\API.h)(0x589F34D8)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (.\lib\api\inc\Delay.h)(0x58681031)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\api\inc\Analog.h)(0x587031BF)
+I (.\lib\api\inc\Timer.h)(0x58851BCA)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\I2C.h)(0x588C9CF4)
+I (.\lib\api\inc\SPI.h)(0x58892D6E)
+I (.\lib\api\inc\Memory.h)(0x586C053B)
+I (.\lib\api\inc\Power.h)(0x58702848)
+I (.\lib\api\inc\Watchdog.h)(0x586E9BE5)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\misc\inc\SevenSeg.h)(0x59358555)
+I (.\lib\misc\inc\Encoder.h)(0x588C9A06)
+I (.\lib\misc\inc\DS3231.h)(0x5F84C762)
+I (.\lib\misc\inc\GPS.h)(0x589F9A8A)
+I (.\lib\misc\inc\Button.h)(0x59355204)
+I (.\lib\misc\inc\Brightness.h)(0x59356E88)
+I (.\lib\misc\inc\cie1931.h)(0x588E0736)
+I (.\lib\misc\inc\Timezone.h)(0x588CB124)
+I (.\lib\misc\inc\Grid.h)(0x588CB8C2)
+I (.\inc\Menu.h)(0x59357B73)
+I (.\inc\Items\Temperature.h)(0x59357C77)
+I (.\inc\Items\Altitude.h)(0x59357C8F)
+I (.\inc\Items\Fix.h)(0x59357CA3)
+I (.\inc\Items\Satellites.h)(0x59357CB8)
+F (.\src\Items\Fix.cpp)(0x59357C36)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\fix.o --omf_browse .\obj\fix.crf --depend .\obj\fix.d)
+I (.\inc\Items\Fix.h)(0x59357CA3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\inc\Config.h)(0x593583BD)
+I (.\lib\api\inc\API.h)(0x589F34D8)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (.\lib\api\inc\Delay.h)(0x58681031)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\api\inc\Analog.h)(0x587031BF)
+I (.\lib\api\inc\Timer.h)(0x58851BCA)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\I2C.h)(0x588C9CF4)
+I (.\lib\api\inc\SPI.h)(0x58892D6E)
+I (.\lib\api\inc\Memory.h)(0x586C053B)
+I (.\lib\api\inc\Power.h)(0x58702848)
+I (.\lib\api\inc\Watchdog.h)(0x586E9BE5)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\misc\inc\SevenSeg.h)(0x59358555)
+I (.\lib\misc\inc\Encoder.h)(0x588C9A06)
+I (.\lib\misc\inc\DS3231.h)(0x5F84C762)
+I (.\lib\misc\inc\GPS.h)(0x589F9A8A)
+I (.\lib\misc\inc\Button.h)(0x59355204)
+I (.\lib\misc\inc\Brightness.h)(0x59356E88)
+I (.\lib\misc\inc\cie1931.h)(0x588E0736)
+I (.\lib\misc\inc\Timezone.h)(0x588CB124)
+I (.\lib\misc\inc\Grid.h)(0x588CB8C2)
+I (.\inc\Menu.h)(0x59357B73)
+I (.\inc\Items\Clock.h)(0x59357C68)
+I (.\inc\Items\Temperature.h)(0x59357C77)
+I (.\inc\Items\Altitude.h)(0x59357C8F)
+I (.\inc\Items\Satellites.h)(0x59357CB8)
+F (.\src\Items\Satellites.cpp)(0x59357C48)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\satellites.o --omf_browse .\obj\satellites.crf --depend .\obj\satellites.d)
+I (.\inc\Items\Satellites.h)(0x59357CB8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\inc\Config.h)(0x593583BD)
+I (.\lib\api\inc\API.h)(0x589F34D8)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (.\lib\api\inc\Delay.h)(0x58681031)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\api\inc\Analog.h)(0x587031BF)
+I (.\lib\api\inc\Timer.h)(0x58851BCA)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\I2C.h)(0x588C9CF4)
+I (.\lib\api\inc\SPI.h)(0x58892D6E)
+I (.\lib\api\inc\Memory.h)(0x586C053B)
+I (.\lib\api\inc\Power.h)(0x58702848)
+I (.\lib\api\inc\Watchdog.h)(0x586E9BE5)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\misc\inc\SevenSeg.h)(0x59358555)
+I (.\lib\misc\inc\Encoder.h)(0x588C9A06)
+I (.\lib\misc\inc\DS3231.h)(0x5F84C762)
+I (.\lib\misc\inc\GPS.h)(0x589F9A8A)
+I (.\lib\misc\inc\Button.h)(0x59355204)
+I (.\lib\misc\inc\Brightness.h)(0x59356E88)
+I (.\lib\misc\inc\cie1931.h)(0x588E0736)
+I (.\lib\misc\inc\Timezone.h)(0x588CB124)
+I (.\lib\misc\inc\Grid.h)(0x588CB8C2)
+I (.\inc\Menu.h)(0x59357B73)
+I (.\inc\Items\Clock.h)(0x59357C68)
+I (.\inc\Items\Temperature.h)(0x59357C77)
+I (.\inc\Items\Altitude.h)(0x59357C8F)
+I (.\inc\Items\Fix.h)(0x59357CA3)
+F (.\src\Items\Temperature.cpp)(0x59357C1D)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\temperature.o --omf_browse .\obj\temperature.crf --depend .\obj\temperature.d)
+I (.\inc\Items\Temperature.h)(0x59357C77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\inc\Config.h)(0x593583BD)
+I (.\lib\api\inc\API.h)(0x589F34D8)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (.\lib\api\inc\Delay.h)(0x58681031)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\api\inc\Analog.h)(0x587031BF)
+I (.\lib\api\inc\Timer.h)(0x58851BCA)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\I2C.h)(0x588C9CF4)
+I (.\lib\api\inc\SPI.h)(0x58892D6E)
+I (.\lib\api\inc\Memory.h)(0x586C053B)
+I (.\lib\api\inc\Power.h)(0x58702848)
+I (.\lib\api\inc\Watchdog.h)(0x586E9BE5)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\misc\inc\SevenSeg.h)(0x59358555)
+I (.\lib\misc\inc\Encoder.h)(0x588C9A06)
+I (.\lib\misc\inc\DS3231.h)(0x5F84C762)
+I (.\lib\misc\inc\GPS.h)(0x589F9A8A)
+I (.\lib\misc\inc\Button.h)(0x59355204)
+I (.\lib\misc\inc\Brightness.h)(0x59356E88)
+I (.\lib\misc\inc\cie1931.h)(0x588E0736)
+I (.\lib\misc\inc\Timezone.h)(0x588CB124)
+I (.\lib\misc\inc\Grid.h)(0x588CB8C2)
+I (.\inc\Menu.h)(0x59357B73)
+I (.\inc\Items\Clock.h)(0x59357C68)
+I (.\inc\Items\Altitude.h)(0x59357C8F)
+I (.\inc\Items\Fix.h)(0x59357CA3)
+I (.\inc\Items\Satellites.h)(0x59357CB8)
+F (.\lib\misc\src\Brightness.cpp)(0x59356E88)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\brightness.o --omf_browse .\obj\brightness.crf --depend .\obj\brightness.d)
+I (.\lib\misc\inc\Brightness.h)(0x59356E88)
+I (.\lib\api\inc\Timer.h)(0x58851BCA)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\misc\inc\cie1931.h)(0x588E0736)
+F (.\lib\misc\src\Button.cpp)(0x59358E72)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\button.o --omf_browse .\obj\button.crf --depend .\obj\button.d)
+I (.\lib\misc\inc\Button.h)(0x59355204)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\misc\src\DS3231.cpp)(0x5F84C87B)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\ds3231.o --omf_browse .\obj\ds3231.crf --depend .\obj\ds3231.d)
+I (.\lib\misc\inc\DS3231.h)(0x5F84C762)
+I (.\lib\api\inc\I2C.h)(0x588C9CF4)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+F (.\lib\misc\src\Encoder.cpp)(0x588C986D)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\encoder.o --omf_browse .\obj\encoder.crf --depend .\obj\encoder.d)
+I (.\lib\misc\inc\Encoder.h)(0x588C9A06)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+F (.\lib\misc\src\GPS.cpp)(0x58A09F7F)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\gps.o --omf_browse .\obj\gps.crf --depend .\obj\gps.d)
+I (.\lib\misc\inc\GPS.h)(0x589F9A8A)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+F (.\lib\misc\src\SevenSeg.cpp)(0x5933E4AA)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\sevenseg.o --omf_browse .\obj\sevenseg.crf --depend .\obj\sevenseg.d)
+I (.\lib\misc\inc\SevenSeg.h)(0x59358555)
+I (.\lib\api\inc\Digital.h)(0x586AE46D)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (.\lib\misc\inc\AsciiMap.h)(0x5897A3CA)
+F (.\lib\misc\src\Timezone.cpp)(0x588CB830)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\timezone.o --omf_browse .\obj\timezone.crf --depend .\obj\timezone.d)
+I (.\lib\misc\inc\Timezone.h)(0x588CB124)
+I (.\lib\api\inc\RTC.h)(0x589628E9)
+I (.\lib\api\inc\Common.h)(0x589623AC)
+I (.\lib\system\inc\stm32f0xx.h)(0x58890EBE)
+I (.\lib\cmsis\inc\core_cm0.h)(0x5868489A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\lib\cmsis\inc\core_cmInstr.h)(0x58595C0C)
+I (.\lib\cmsis\inc\core_cmFunc.h)(0x58595C0C)
+I (.\lib\system\inc\system_stm32f0xx.h)(0x58684343)
+I (.\lib\misc\inc\GPS.h)(0x589F9A8A)
+I (.\lib\api\inc\Serial.h)(0x588E1149)
+I (.\lib\api\inc\GPIO.h)(0x5871414D)
+I (.\lib\api\inc\CircularBuffer.h)(0x5894C582)
+I (.\lib\misc\inc\Grid.h)(0x588CB8C2)
+F (.\src\Menu.cpp)(0x59357B4D)(--cpp -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\lib\api\inc -I .\lib\cmsis\inc -I .\lib\system\inc -I .\lib\misc\inc -I .\inc\Items --cpp-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="531" -DSTM32F051x8-o .\obj\menu_1.o --omf_browse .\obj\menu_1.crf --depend .\obj\menu_1.d)
+I (.\inc\Menu.h)(0x59357B73)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+F (.\lib\misc\inc\Grid.h)(0x588CB8C2)()
